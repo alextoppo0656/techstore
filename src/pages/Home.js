@@ -61,7 +61,7 @@ export default function Home() {
 
         <div className="hero-visual fade-in" style={{ animationDelay: '0.1s' }}>
           <div className="hero-card hero-card-1">
-            <img src="https://images.unsplash.com/photo-1588156979435-379b9d802b0a?w=500&q=80" alt="AirPods" />
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=500&hei=500&fmt=jpeg&qlt=95" alt="AirPods" />
           </div>
           <div className="hero-card hero-card-2">
             <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80" alt="MacBook" />

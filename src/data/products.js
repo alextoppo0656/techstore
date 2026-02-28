@@ -10,7 +10,7 @@ export const products = [
     rating: 4.8,
     reviews: 2341,
     badge: "Best Seller",
-    img: "https://images.unsplash.com/photo-1588156979435-379b9d802b0a?w=600&q=80",
+    img: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=600&hei=600&fmt=jpeg&qlt=95",
     description: "Active noise cancellation, Adaptive Transparency, Personalized Spatial Audio. Up to 6 hours of listening time with ANC enabled.",
     specs: { "Driver": "Custom Apple", "ANC": "Yes", "Battery": "6+30hr", "Connectivity": "Bluetooth 5.3", "Water Resistance": "IPX4" }
   },
