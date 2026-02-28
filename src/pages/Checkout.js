@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../data/products';
 import './Checkout.css';
@@ -7,8 +7,7 @@ import './Checkout.css';
 const STEPS = ['Shipping', 'Payment', 'Review'];
 
 export default function Checkout() {
-  const { cart, dispatch, totalPrice, totalItems } = useCart();
-  const navigate = useNavigate();
+  const { cart, dispatch, totalPrice } = useCart();
   const [step, setStep] = useState(0);
   const [orderPlaced, setOrderPlaced] = useState(false);
   const [orderNum] = useState(() => Math.floor(Math.random() * 900000) + 100000);

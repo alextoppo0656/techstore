@@ -22,15 +22,15 @@ export default function Footer() {
           </div>
           <div className="footer-col">
             <h4>Support</h4>
-            <a href="#">FAQ</a>
-            <a href="#">Shipping Info</a>
-            <a href="#">Returns</a>
+            <a href="/">FAQ</a>
+            <a href="/">Shipping Info</a>
+            <a href="/">Returns</a>
           </div>
           <div className="footer-col">
             <h4>Company</h4>
-            <a href="#">About Us</a>
-            <a href="#">Careers</a>
-            <a href="#">Press</a>
+            <a href="/">About Us</a>
+            <a href="/">Careers</a>
+            <a href="/">Press</a>
           </div>
         </div>
       </div>
@@ -38,9 +38,9 @@ export default function Footer() {
       <div className="footer-bottom">
         <span>© 2024 TechStore. All rights reserved.</span>
         <div className="footer-legal">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Cookies</a>
+          <a href="/">Privacy</a>
+          <a href="/">Terms</a>
+          <a href="/">Cookies</a>
         </div>
       </div>
     </footer>
